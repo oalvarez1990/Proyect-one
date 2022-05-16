@@ -124,3 +124,18 @@ module.exports = {Transfer}
 //   .delete(deleteComment);
 
 // module.exports = { commentsRouter: router };
+//   '/:postId',
+//   createCommentValidations,
+//   checkValidations,
+//   createComment
+// );
+
+// // GET /:id Get comment by id
+// // PATCH /:id Update comment
+// // DELETE /:id Delete comment (status = 'deleted')
+// router
+//   .use('/:id', commentExists)
+//   .route('/:id')
+//   .get(getCommentById)
+//   .patch(updateComment)
+//   .delete(deleteComment);
